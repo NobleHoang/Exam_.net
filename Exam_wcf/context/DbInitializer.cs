@@ -15,7 +15,7 @@ public class DbInitializer
     public void Seed()
     {
         modelBuilder.Entity<User>().HasData(
-             new User()
+           new User()
             {
                 id = 1, role = Role.Admin, username = "admin",email = "admin@gmail.com",
                 firstName = "Hiéu", lastName = "Hoang",
@@ -49,7 +49,7 @@ public class DbInitializer
         modelBuilder.Entity<Contacts>().HasData(
             new Contacts()
             {
-                id = 1, group_id = 1, name = "DSLA",number = "0123456789"
+                id = 1, group_id = 1, name = "DSLA 60D",number = "0123456789"
             },
             new Contacts(){
                 id = 2, group_id = 1, name = "XT-100",number = "0123456789"
