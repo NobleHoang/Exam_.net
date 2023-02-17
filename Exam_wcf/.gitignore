@@ -5,4 +5,7 @@ bin
 obj
 
 .idea/
-appsettings.json
+.vs
+.idea
+
+
