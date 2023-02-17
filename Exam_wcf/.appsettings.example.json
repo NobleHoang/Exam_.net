@@ -1,0 +1,21 @@
+{
+  "AppSettings": {
+    "Secret": "hoangminhhieu-t2108e"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "DefaultConnection": "server=localhost; port=3306; database=netcore; user=root; password=; Persist Security Info=False; Connect Timeout=300"
+  },
+  "Jwt": {
+    "Key": "hoangminhhieu-t2108e",
+    "Issuer": "hoanghieuissuer",
+    "Audience": "hoanghieuaudience",
+    "Subject": "hoanghieusubject"
+  }
+}
